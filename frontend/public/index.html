@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>India Esports Hub — Home</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-home bg-overlay-noise">
+
+<header class="container site-header">
+
+<!-- LEFT : LOGO -->
+<a href="index.html" class="site-logo">
+<img src="images/IEH pic.png" alt="India Esports Hub" class="logo-img">
+</a>
+
+<!-- CENTER : NAVIGATION -->
+<div class="nav-center">
+
+<a href="dashboard.html">Tournaments</a>
+<a href="leaderboard.html">Leaderboard</a>
+<a href="#">Games</a>
+<a href="#">News</a>
+
+</div>
+
+<!-- RIGHT : LOGIN -->
+<nav>
+
+<span id="username"></span>
+
+<a id="loginBtn" class="btn login-btn" href="login.html">Login</a>
+
+<a id="signupBtn" class="btn signup-btn" href="signup.html">Sign up</a>
+
+<button id="logoutBtn" onclick="logout()" class="btn logout-btn">Logout</button>
+
+</nav>
+
+</header>
+
+
+<main class="container main-hero">
+
+<section>
+
+<!-- 🔥 Esports Highlights -->
+<div class="esports-slider-left">
+
+<h3>🔥 Esports Highlights</h3>
+
+<div class="slider-container">
+
+<div class="slides">
+
+<div class="slide">
+<img src="images/valo.jpg" alt="Valorant">
+<div class="slide-text">Valorant Championship</div>
+</div>
+
+<div class="slide">
+<img src="images/mlbb.jpg" alt="MLBB">
+<div class="slide-text">MLBB M7 World Series</div>
+</div>
+
+<div class="slide">
+<img src="images/BGMI-BGIS-2024-esports-tournament-1.webp" alt="BGMI">
+<div class="slide-text">BGMI India Series</div>
+</div>
+
+<div class="slide">
+<img src="images/ff wc.avif" alt="Free Fire">
+<div class="slide-text">Free Fire Esports World Cup</div>
+</div>
+
+<div class="slide">
+<img src="images/pokemon unite pic.jpg" alt="Pokemon Unite">
+<div class="slide-text">Pokemon Unite India League</div>
+</div>
+
+</div>
+
+<button class="prev">&#10094;</button>
+<button class="next">&#10095;</button>
+
+</div>
+
+<div class="dots"></div>
+
+</div>
+
+
+<h1 class="hero-title">
+India's Premier Esports Tournament Hub
+</h1>
+
+<p class="hero-desc">
+Discover and register for verified Indian esports events for
+Valorant, MLBB, BGMI, Free Fire, Pokémon Unite and more.
+Regional qualifiers, open cups, and community ladders —
+all in one place.
+</p>
+
+<div style="margin-top:18px">
+<a class="btn" href="dashboard.html">Browse All Tournaments</a>
+<a class="btn ghost ml-8" href="leaderboard.html">View Leaderboards</a>
+</div>
+
+
+<div class="section-game mt-18">
+
+<h3>Why should I use the India Esports Hub?</h3>
+
+<div class="why-grid">
+
+<div class="card">
+<h4>Verified Events</h4>
+<p>We list official and trusted community tournaments.</p>
+</div>
+
+<div class="card">
+<h4>Secure Registration</h4>
+<p>Direct links and clear rules for every event.</p>
+</div>
+
+<div class="card">
+<h4>Regional Filters</h4>
+<p>Find events by city, state or national level.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<aside class="hero-aside">
+
+<div class="card card-sm">
+
+<h3 class="no-margin">
+Upcoming Global Tournaments
+</h3>
+
+<div id="upcoming-indiatours">
+<p class="meta">Loading tournaments…</p>
+</div>
+
+</div>
+
+
+<div class="card mt-18">
+
+<h4 class="no-margin">
+Quick Links
+</h4>
+
+<div class="quick-links">
+
+<a class="btn ghost" href="#">Host an Event</a>
+<a class="btn ghost" href="#">Sponsor</a>
+<a class="btn ghost" href="#">Community Rules</a>
+
+</div>
+
+</div>
+
+</aside>
+
+</main>
+
+
+<footer class="container center footer">
+
+<div class="meta">
+© 2026 India Esports Hub — Built for Indian competitive gaming communities
+</div>
+
+</footer>
+
+
+<!-- PARTICLES BACKGROUND -->
+<div class="particles" id="particles"></div>
+
+
+<!-- FLOATING CHAT BUTTON -->
+<div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+
+<!-- CHATBOT WINDOW -->
+<div class="chatbot" id="chatbot">
+
+<div class="chatbot-header">
+🎮 ArenaAI
+<span onclick="toggleChat()">✖</span>
+</div>
+
+<div class="chatbot-body" id="chatBody">
+
+<div class="bot-msg">
+👋 Hi! I'm <b>ArenaAI</b><br>
+Your Esports Tournament Assistant.<br><br>
+
+<b>Ask me about:</b><br>
+🎯 Valorant<br>
+🔥 Free Fire<br>
+🔫 BGMI<br>
+🛡️ MLBB<br>
+⚡ Pokémon Unite
+</div>
+
+</div>
+
+<div class="chatbot-input">
+
+<input type="text" id="chatInput" placeholder="Ask ArenaAI about tournaments...">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+<script src="js/script.js"></script>
+<script src="js/threeScene.js"></script>
+<script src="js/home.js"></script>
+<script src="js/chatbot.js"></script>
+
+</body>
+</html>

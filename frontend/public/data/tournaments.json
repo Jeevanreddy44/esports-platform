@@ -1,0 +1,114 @@
+[
+    {
+    "id": "valorant-ind-2026-1",
+    "game": "Valorant",
+    "title": "VALORANT Challengers South Asia 2026",
+    "Registration Deadline": "4 March 2026",
+    "start": "7 March - 11 March 2026",
+    "end": "29 April 2026",
+    "region": "Southeast Asia",
+    "format": "Team",
+    "prize": "~$22,000 (~₹18L)",
+    "link": "https://vct.nodwingaming.com/"
+  },
+  {
+    "id": "bgmi-ind-2026-1",
+    "game": "BGMI",
+    "title": "Battlegrounds Mobile India Series 2026",
+    "start": "26 January 2026 (online stages begin)",
+    "end": "29 March 2026 (finals)",
+    "region": "India",
+    "format": "Squad",
+    "prize": " 2-4 crore INR (approx. $250,000 - $500,000)",
+    "link": "https://esports.battlegroundsmobileindia.com/ActiveTournaments/BGIS2026"
+  },
+
+  {
+    "id": "mlbb-ind-2026-1",
+    "game": "Mlbb Legends",
+    "title": "MLBB Mid‑Season Cup 2026",
+    "start": "22 July 2026",
+    "end": "1 August 2026",
+    "region": "Riyadh, Saudi Arabia",
+    "format": "5 vs 5 Team",
+    "prize": "$3,000,000 (~₹25+ Crore)",
+    "link": "https://liquipedia.net/mobilelegends/MSC/2026?utm_source=chatgpt.com"
+  },
+  {
+    "id": "cs2-ind-2026-1",
+    "game": "CS2",
+    "title": "CS2 India Qualifier — Ladder",
+    "start": "2026-03-22",
+    "end": "2026-04-02",
+    "region": "India",
+    "format": "Team",
+    "prize": "$6,000",
+    "link": "https://liquipedia.net/counterstrike/"
+  },
+  {
+    "id": "poke-ind-2026-1",
+    "game": "Pokemon Unite",
+    "title": "Pokémon Unite — India Open",
+    "start": "2026-03-25",
+    "end": "2026-04-05",
+    "region": "India",
+    "format": "Team",
+    "prize": "$4,000",
+    "link": "https://www.pokemonunite.com/"
+  },
+  {
+    "id": "pubg-ind-2026-1",
+    "game": "PUBG Mobile",
+    "title": "India Community Cup — Solo/Team",
+    "start": "2026-03-28",
+    "end": "2026-04-08",
+    "region": "India",
+    "format": "Mixed",
+    "prize": "$5,500",
+    "link": "https://www.pubgmobile.com/"
+  },
+  {
+    "id": "vct-2026-1",
+    "game": "Valorant",
+    "title": "VCT Regional Open — NA",
+    "start": "2026-03-20",
+    "end": "2026-04-05",
+    "region": "North America",
+    "format": "Team",
+    "prize": "$50,000",
+    "link": "https://valorantesports.riotgames.com/"
+  },
+  {
+    "id": "mlbb-2026-1",
+    "game": "Moba Legends",
+    "title": "MLBB Cup — SEA Qualifiers",
+    "start": "2026-03-18",
+    "end": "2026-03-28",
+    "region": "Southeast Asia",
+    "format": "Team",
+    "prize": "$20,000",
+    "link": "https://www.mlbb.com/"
+  },
+  {
+    "id": "lol-2026-1",
+    "game": "League of Legends",
+    "title": "LoL Regional Cup",
+    "start": "2026-03-30",
+    "end": "2026-04-12",
+    "region": "Europe",
+    "format": "Team",
+    "prize": "$40,000",
+    "link": "https://lolesports.com/"
+  },
+  {
+    "id": "cs2-2026-1",
+    "game": "CS2",
+    "title": "Open CS2 Ladder",
+    "start": "2026-03-15",
+    "end": "2026-03-29",
+    "region": "Global",
+    "format": "Team",
+    "prize": "$5,000",
+    "link": "https://liquipedia.net/counterstrike/"
+  }
+]

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esports Platform — Tournaments</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-dashboard bg-overlay-noise">
+  <header class="container site-header">
+    <a href="index.html" class="site-logo">
+<img src="images/IEH pic.png" alt="India Esports Hub" class="logo-img">
+</a>
+    <nav>
+      <a class="btn ghost" href="admin.html">Admin</a>
+      <a class="btn" href="leaderboard.html">Leaderboard</a>
+    </nav>
+  </header>
+
+  <main class="container main-pad">
+    <h2>Tournaments</h2>
+    <div id="tournaments" class="grid-tournaments" aria-live="polite">
+      <!-- Tournament cards are loaded dynamically from data/tournaments.json -->
+    </div>
+  </main>
+
+  <div class="particles" id="particles"></div>
+  <script src="js/dashboard.js" defer></script>
+</body>
+</html>

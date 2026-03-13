@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<title>Esports Platform — Leaderboard</title>
+
+<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+
+<body class="bg-leaderboard bg-overlay-noise">
+
+
+<header class="container site-header">
+  
+<a href="index.html" class="site-logo">
+<img src="images/IEH pic.png" alt="India Esports Hub" class="logo-img">
+</a>
+
+<nav>
+<a class="btn ghost" href="dashboard.html">Tournaments</a>
+</nav>
+
+</header>
+
+
+<main class="container main-pad">
+
+
+<h2>
+🏆 Top Players Across Games
+<span class="live-indicator">LIVE</span>
+</h2>
+
+
+<button class="refresh-btn" onclick="refreshLeaderboard()">
+
+<svg class="refresh-icon" viewBox="0 0 24 24">
+<path d="M17.65 6.35A7.95 7.95 0 0012 4V1L7 6l5 5V7a5 5 0 11-5 5H5a7 7 0 107.75-6.93z"/>
+</svg>
+
+</button>
+
+
+<!-- Valorant -->
+
+<section class="section-game">
+
+<h3>Valorant</h3>
+
+<div class="players-list">
+
+<div class="leader-row leaderboard-card shimmer">
+<div class="avatar-sm avatar-g1"></div>
+<div class="flex-1">
+<strong>TenZ</strong>
+<div class="meta">Sentinels • Radiant • Rating 1.32</div>
+</div>
+<div class="meta">#1</div>
+</div>
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g2"></div>
+<div class="flex-1">
+<strong>Demon1</strong>
+<div class="meta">NRG • Radiant • Rating 1.29</div>
+</div>
+<div class="meta">#2</div>
+</div>
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g3"></div>
+<div class="flex-1">
+<strong>aspas</strong>
+<div class="meta">LOUD • Radiant • Rating 1.27</div>
+</div>
+<div class="meta">#3</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Moba Legends -->
+
+<section class="section-game">
+
+<h3>Moba Legends</h3>
+
+<div class="players-list">
+
+<div class="leader-row leaderboard-card shimmer">
+<div class="avatar-sm avatar-g4"></div>
+<div class="flex-1">
+<strong>KarlTzy</strong>
+<div class="meta">Echo • Mythic Glory • KDA 6.8</div>
+</div>
+<div class="meta">#1</div>
+</div>
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g5"></div>
+<div class="flex-1">
+<strong>OHEB</strong>
+<div class="meta">Blacklist • Mythic Glory • KDA 6.2</div>
+</div>
+<div class="meta">#2</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- BGMI -->
+
+<section class="section-game">
+
+<h3>BGMI / PUBG </h3>
+
+<div class="players-list">
+
+<div class="leader-row leaderboard-card shimmer">
+<div class="avatar-sm avatar-g6"></div>
+<div class="flex-1">
+<strong>Jonathan</strong>
+<div class="meta">GodLike • Avg kills 8.7 • 74% win rate</div>
+</div>
+<div class="meta">#1</div>
+</div>
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g2"></div>
+<div class="flex-1">
+<strong>Scout</strong>
+<div class="meta">XSpark • Avg kills 7.3 • 68% win rate</div>
+</div>
+<div class="meta">#2</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Pokemon Unite -->
+
+<section class="section-game">
+
+<h3>Pokémon Unite</h3>
+
+<div class="players-list">
+
+<div class="leader-row leaderboard-card shimmer">
+<div class="avatar-sm avatar-g4"></div>
+<div class="flex-1">
+<strong>Inder</strong>
+<div class="meta">Team India • Master Rank • 69% win rate</div>
+</div>
+<div class="meta">#1</div>
+</div>
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g5"></div>
+<div class="flex-1">
+<strong>Lutano</strong>
+<div class="meta">Luminosity • Master Rank • 65% win rate</div>
+</div>
+<div class="meta">#2</div>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Other Games -->
+
+<section class="section-game">
+
+<h3>Other Top Players</h3>
+
+<div class="players-list">
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g1"></div>
+<div class="flex-1">
+<strong>Faker (League of Legends)</strong>
+<div class="meta">T1 • Challenger • 3× World Champion</div>
+</div>
+<div class="meta">#1</div>
+</div>
+
+<div class="leader-row leaderboard-card">
+<div class="avatar-sm avatar-g2"></div>
+<div class="flex-1">
+<strong>s1mple (CS2)</strong>
+<div class="meta">NAVI • Global Elite • Rating 1.30</div>
+</div>
+<div class="meta">#1</div>
+</div>
+
+</div>
+
+</section>
+
+
+</main>
+
+
+<script src="js/leaderboard.js" defer></script>
+
+</body>
+</html>

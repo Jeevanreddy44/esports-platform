@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esports Platform — Sign up</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-signup bg-overlay-noise">
+  <header class="container center" style="justify-content:space-between; padding-top:18px;">
+    <a href="index.html" class="logo" style="font-weight:800; color:var(--text); text-decoration:none">Esports Hub</a>
+    <nav>
+      <a class="btn ghost" href="login.html">Already have an account?</a>
+    </nav>
+  </header>
+
+  <main class="container center" style="min-height:75vh">
+    <form class="card" style="width:480px; max-width:96%;" aria-label="Signup form">
+      <h2 style="margin-top:0">Create account</h2>
+      <label class="meta">Display name
+        <input class="input" placeholder="ProGamer" required />
+      </label>
+      <div style="height:8px"></div>
+      <label class="meta">Email
+        <input type="email" class="input" placeholder="you@game.com" required />
+      </label>
+      <div style="height:8px"></div>
+      <label class="meta">Password
+        <input type="password" class="input" placeholder="Choose a strong password" required />
+      </label>
+      <div style="margin-top:14px; display:flex; gap:8px; justify-content:flex-end;">
+        <button class="btn" type="submit">Sign up</button>
+        <a class="btn ghost" href="index.html">Cancel</a>
+      </div>
+    </form>
+  </main>
+
+  <script src="js/signup.js" defer></script>
+</body>
+</html>

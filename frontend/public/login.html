@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esports Platform — Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-login bg-overlay-noise">
+  <header class="container center" style="justify-content:space-between; padding-top:18px;">
+    <a href="index.html" class="logo" style="font-weight:800; color:var(--text); text-decoration:none">Esports Hub</a>
+    <nav>
+      <a class="btn ghost" href="signup.html">Create account</a>
+    </nav>
+  </header>
+
+  <main class="container center" style="min-height:75vh">
+    <form class="card" style="width:420px; max-width:92%;" aria-label="Login form">
+      <h2 style="margin-top:0">Sign in</h2>
+      <label class="meta">Email
+        <input type="email" class="input" placeholder="you@game.com" required />
+      </label>
+      <div style="height:12px"></div>
+      <label class="meta">Password
+        <input type="password" class="input" placeholder="••••••••" required />
+      </label>
+      <div style="margin-top:14px; display:flex; gap:8px; justify-content:flex-end;">
+        <button class="btn" type="submit">Log in</button>
+        <a class="btn ghost" href="index.html">Cancel</a>
+      </div>
+    </form>
+  </main>
+
+  <script src="js/login.js" defer></script>
+</body>
+</html>

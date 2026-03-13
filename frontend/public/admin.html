@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esports Platform — Admin</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-admin bg-overlay-noise">
+  <header class="container center" style="justify-content:space-between; padding-top:18px;">
+    <a href="index.html" class="logo" style="font-weight:800; color:var(--text); text-decoration:none">Esports</a>
+    <nav>
+      <a class="btn ghost" href="dashboard.html">Back</a>
+    </nav>
+  </header>
+
+  <main class="container" style="padding-top:22px">
+    <h2>Create Tournament</h2>
+    <form class="card" style="max-width:720px; display:grid; gap:10px; margin-top:12px" aria-label="Create tournament">
+      <input class="input" placeholder="Tournament name" required />
+      <input class="input" placeholder="Game / format" />
+      <input class="input" placeholder="Prize pool" />
+      <div style="display:flex; gap:8px; justify-content:flex-end">
+        <button class="btn" type="submit">Create</button>
+        <a class="btn ghost" href="dashboard.html">Cancel</a>
+      </div>
+    </form>
+  </main>
+
+  <script src="js/admin.js" defer></script>
+</body>
+</html>
