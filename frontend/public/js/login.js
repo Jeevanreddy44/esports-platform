@@ -34,6 +34,6 @@ document.querySelector("form").addEventListener("submit", async function(e) {
 
     } catch (err) {
         console.error("Login error:", err);
-        alert("Could not connect to the server. Make sure the backend is running on port 8080.");
+        alert("Server not reachable. Please try again later.");
     }
 });
