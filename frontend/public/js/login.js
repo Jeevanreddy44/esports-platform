@@ -10,7 +10,7 @@ document.querySelector("form").addEventListener("submit", async function(e) {
     }
 
     try {
-        const response = await fetch("https://your-backend.onrender.com/api/auth/login", ...) {
+        const response = await fetch("https://esports-platform.onrender.com/api/auth/login",  {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email, password })
